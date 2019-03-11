@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>プルダウンメニュー</title>
+</head>
+<body>
+    <script type="text/javascript" src="script.js"></script>
+    <form>
+        <select name="todofuken">
+            <option value="error">選択してください</option>
+            <option value="001">東京</option>
+            <option value="002">神奈川</option>
+            <option value="003">千葉</option>
+            <option value="004">埼玉</option>
+        </select>
+        <select name="age">
+            <option>選択してください</option>
+                <script>
+                    for(var i=18;i<=65;i++){
+                        document.write("<option>");
+                        document.write(i);
+                        document.write("</option>");
+                    }
+                </script>
+        </select>
+    </form>
+</body>
+</html>
