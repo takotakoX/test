@@ -2,7 +2,10 @@
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		var a = 5*3;
-		System.out.println(a);}
-
+		int i=5;
+		do{
+			System.out.println(i);
+			i++;
+		}while(i<10);
+	}
 }

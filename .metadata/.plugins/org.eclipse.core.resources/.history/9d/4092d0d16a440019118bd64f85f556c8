@@ -1,0 +1,10 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		int a =5;
+		String b = a%2==0? "偶数":"奇数";
+		
+		System.out.println(b);
+	}
+}
