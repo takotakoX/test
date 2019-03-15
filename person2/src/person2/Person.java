@@ -5,7 +5,7 @@ public class Person {
 	public String name=null;
 	public int age=0;
 
-	//コンストラクタ①
+	//コンストラクタ①=デフォルトコンストラクタ
 	public Person(){}
 
 	//コンストラクタ②
@@ -13,6 +13,7 @@ public class Person {
 		this.name=name;
 		this.age=age;
 	}
+//	this.nameは5行目のnameを指している。
 
 	//コンストラクタ③
 	public Person(String name){
