@@ -1,4 +1,4 @@
-!SESSION 2019-03-14 15:21:12.174 -----------------------------------------------
+!SESSION 2019-03-19 09:37:11.841 -----------------------------------------------
 eclipse.buildId=4.5.2.M20160212-1500
 java.version=1.8.0_74
 java.vendor=Oracle Corporation
@@ -7,9 +7,9 @@ Framework arguments:  -product org.eclipse.epp.package.jee.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
 
 This is a continuation of log file C:\Users\internousdev\Desktop\workspace\workspace-suzukawa\test\.metadata\.bak_1.log
-Created Time: 2019-03-14 17:56:20.487
+Created Time: 2019-03-19 14:22:17.979
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.488
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.980
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -220,9 +220,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -241,7 +247,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.490
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.981
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -464,9 +470,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -485,7 +497,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.492
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.982
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -720,9 +732,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -741,7 +759,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.495
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.983
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -988,9 +1006,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -1009,7 +1033,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.497
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.984
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -1268,9 +1292,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -1289,7 +1319,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.500
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.985
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -1560,9 +1590,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -1581,7 +1617,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.502
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.986
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -1864,9 +1900,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -1885,7 +1927,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.504
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.987
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -2180,9 +2222,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -2201,7 +2249,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.507
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.988
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -2508,9 +2556,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -2529,7 +2583,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.509
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.989
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -2848,9 +2902,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -2869,7 +2929,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.512
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.991
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -3200,9 +3260,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -3221,7 +3287,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.515
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.993
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -3564,9 +3630,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -3585,7 +3657,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.517
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.995
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -3940,9 +4012,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -3961,7 +4039,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.521
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.996
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -4328,9 +4406,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -4349,7 +4433,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.525
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:17.998
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -4728,9 +4812,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -4749,7 +4839,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.528
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.000
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -5140,9 +5230,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -5161,7 +5257,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.532
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.003
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -5564,9 +5660,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -5585,7 +5687,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.534
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.004
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -6000,9 +6102,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -6021,7 +6129,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.537
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.006
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -6448,9 +6556,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -6469,7 +6583,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.541
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.008
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -6908,9 +7022,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -6929,7 +7049,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.544
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.010
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -7380,9 +7500,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -7401,7 +7527,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.554
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.012
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -7864,9 +7990,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -7885,7 +8017,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.557
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.014
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -8360,9 +8492,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -8381,7 +8519,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.562
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.015
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -8868,9 +9006,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -8889,7 +9033,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.569
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.017
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -9388,9 +9532,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -9409,7 +9559,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.572
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.018
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -9920,9 +10070,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -9941,7 +10097,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.575
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.020
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -10464,9 +10620,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -10485,7 +10647,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.579
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.021
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -11020,9 +11182,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)
@@ -11041,7 +11209,7 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:159)
 	at java.lang.Thread.run(Thread.java:745)
 
-!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-14 17:56:20.583
+!ENTRY org.eclipse.epp.logging.aeri.core 2 1 2019-03-19 14:22:18.023
 !MESSAGE AERI failed with an error. Please report this error: null ; バージョン: 1.100.0.v20160211-1103
 !STACK 0
 java.lang.NullPointerException
@@ -11588,9 +11756,15 @@ java.lang.NullPointerException
 	at org.eclipse.osgi.internal.log.LoggerImpl.log(LoggerImpl.java:54)
 	at org.eclipse.core.internal.runtime.PlatformLogWriter.logging(PlatformLogWriter.java:44)
 	at org.eclipse.core.internal.runtime.RuntimeLog.log(RuntimeLog.java:97)
-	at org.eclipse.core.internal.jobs.JobManager.doShutdown(JobManager.java:652)
-	at org.eclipse.core.internal.jobs.JobManager.shutdown(JobManager.java:277)
-	at org.eclipse.core.internal.jobs.JobActivator.stop(JobActivator.java:57)
+	at org.eclipse.core.runtime.SafeRunner.handleException(SafeRunner.java:71)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:44)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:289)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:152)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:373)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1470)
+	at org.eclipse.core.internal.resources.Marker.delete(Marker.java:72)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptPreferencesManager.stop(JavaScriptPreferencesManager.java:124)
+	at org.eclipse.wst.jsdt.debug.internal.core.JavaScriptDebugPlugin.stop(JavaScriptDebugPlugin.java:187)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:827)
 	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
 	at java.security.AccessController.doPrivileged(Native Method)

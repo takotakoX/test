@@ -1,12 +1,12 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<!DOCTYPE>
+<!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>LoginError</title>
 </head>
 <body>
-<h1>エラーが発生しました</h1>Xr
+<h1>エラーが発生しました</h1>
 <br>
 <h3>ログインできません。</h3>
 </body>

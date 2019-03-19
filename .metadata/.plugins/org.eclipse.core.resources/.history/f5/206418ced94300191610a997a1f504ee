@@ -1,9 +1,0 @@
-
-public class HelloWorld {
-
-	public static void main(String[] args) {
-		float a1=(float)5/2;
-		System.out.println(a1);
-	}
-
-}
