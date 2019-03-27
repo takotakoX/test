@@ -127,3 +127,8 @@
 0:0:0:0:0:0:0:1 - - [26/Mar/2019:17:49:29 +0900] "POST /template/HomeAction.action HTTP/1.1" 404 1017
 0:0:0:0:0:0:0:1 - - [26/Mar/2019:17:49:29 +0900] "POST /template/HomeAction.action HTTP/1.1" 404 1017
 0:0:0:0:0:0:0:1 - - [26/Mar/2019:17:49:29 +0900] "POST /template/HomeAction.action HTTP/1.1" 404 1017
+127.0.0.1 - - [26/Mar/2019:17:49:59 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:17:50:00 +0900] "GET /template/ HTTP/1.1" 200 1538
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:17:50:02 +0900] "POST /template/HomeAction.action HTTP/1.1" 200 2111
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:17:50:13 +0900] "POST /template/LoginAction.action HTTP/1.1" 200 1538
+0:0:0:0:0:0:0:1 - - [26/Mar/2019:17:50:16 +0900] "POST /template/HomeAction.action HTTP/1.1" 200 2111
