@@ -1,0 +1,12 @@
+package com.internousdev.template2.action;
+import java.util.Map;
+import org.apache.struts2.interceptor.SessionAware;
+import com.internousdev.template2.dao.BuyItemDAO;
+import com.internousdev.template2.dao.LoginDAO;
+import com.internousdev.template2.dto.BuyItemDTO;
+import com.internousdev.template2.dto.LoginDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport implements SessionAware{
+
+}
