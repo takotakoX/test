@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;exercise&apos; を &apos;collectionFramework&apos; に変更します" description="リソース &apos;exercise&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/exercise" name="collectionFramework" stamp="1553741082034" updateReferences="true"/>
+</session>
