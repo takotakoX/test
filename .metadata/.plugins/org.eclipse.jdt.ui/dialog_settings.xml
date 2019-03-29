@@ -3,10 +3,11 @@
 	<item value="C:\Users\internousdev\Desktop\mysql-connector-java-5.1.47" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="filter_imports;" key="filters_last_used"/>
 	<section name="RefactoringWizard.preview">
-		<item value="600" key="width"/>
+		<item value="870" key="width"/>
 		<item value="400" key="height"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="true" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
 		<item value="true" key="updateSimilarElements"/>
