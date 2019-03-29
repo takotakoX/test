@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="" key="selection"/>
+		<item value="login_user_transaction" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="login_user_transaction"/>
 			<item value="jsp"/>
 			<item value="CreateComplete"/>
 			<item value="com.internousdev.template.action"/>
@@ -15,7 +16,6 @@
 			<item value="inquiryComplete"/>
 			<item value="com.internousdev.webproj2.action."/>
 			<item value="com.internousdev.webproj.action"/>
-			<item value="com.internousdev.webproj2.action.InquiryActio"/>
 		</list>
 		<list key="replacehistory">
 			<item value="com.internousdev.webproj2.action"/>
@@ -25,7 +25,7 @@
 		<item value="377" key="DIALOG_WIDTH"/>
 		<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
 		<item value="404" key="DIALOG_HEIGHT"/>
-		<item value="423" key="DIALOG_X_ORIGIN"/>
-		<item value="456" key="DIALOG_Y_ORIGIN"/>
+		<item value="775" key="DIALOG_X_ORIGIN"/>
+		<item value="448" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>

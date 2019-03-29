@@ -23,6 +23,9 @@ public class LoginDAO {
 			ps.setString(2, loginPassword);
 
 			ResultSet rs = ps.executeQuery();
+//			この時点でResultSet型のrsにはSELECT文で参照した入力と一致するレコードが一つ戻ってきている。
+//			orなにも入っていない。
+//			すなわち、入力値とDBの値の判定は完了している。
 
 			if(rs.next()){
 				dto.setLoginId(rs.getString("login_id"));
@@ -33,6 +36,7 @@ public class LoginDAO {
 				if(!(rs.getString("login_id").equals(null))){
 					dto.setLoginFlg(true);
 				}
+//				login_idに値が入っていればloginFlgをtrueにする。入っていなければfalse。
 			}
 		}catch(Exception e){
 			e.printStackTrace();

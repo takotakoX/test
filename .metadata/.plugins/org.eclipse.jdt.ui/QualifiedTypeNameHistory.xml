@@ -10,4 +10,7 @@
 <fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dao.BuyItemDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dto.LoginDTO"/>
 </qualifiedTypeNameHistroy>
