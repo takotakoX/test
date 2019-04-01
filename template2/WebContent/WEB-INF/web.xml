@@ -17,5 +17,6 @@ http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1"
   <filter-mapping>
   	<filter-name>struts2</filter-name>
   	<url-pattern>/*</url-pattern>
+<!--   	filter-nameタグに同じstruts2を記述することでfilter-classとurl-patternが結びつく -->
   </filter-mapping>
 </web-app>
