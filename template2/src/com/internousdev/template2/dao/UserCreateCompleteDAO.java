@@ -24,6 +24,7 @@ public class UserCreateCompleteDAO {
 			ps.setString(3, userName);
 			ps.setString(4, dateUtil.getDate());
 			ps.execute();
+//			レコードの挿入が目的のため、戻り値はいらない。
 		}catch(SQLException e){
 			e.printStackTrace();
 		}finally{

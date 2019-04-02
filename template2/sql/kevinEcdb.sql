@@ -37,5 +37,5 @@ create table user_buy_item_transaction(
 	insert_date datetime,
 	delete_date datetime
 );
-insert into item_info_transaction(item_name,item_price,item_stock)values("ノート",100,50);
+insert into item_info_transaction(item_name,item_price,item_stock)values("book",100,50);
 insert into login_user_transaction(login_id,login_pass,user_name)values("taro","123","taro");

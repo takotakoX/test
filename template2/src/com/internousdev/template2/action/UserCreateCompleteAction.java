@@ -19,6 +19,7 @@ public class UserCreateCompleteAction extends ActionSupport implements SessionAw
 
 		UserCreateCompleteDAO dao = new UserCreateCompleteDAO();
 		dao.createUser(session.get("loginUserId").toString(), session.get("loginPassword").toString(), session.get("userName").toString());
+//		UserCreateConfirmActionでsessionに詰めた値を取り出している。
 		String result = SUCCESS;
 		return result;
 	}

@@ -29,13 +29,17 @@
 		<result name="success">userCreateComplete.jsp</result>
 	</action>
 
-<!-- 	<action name="BuyItemConfirmAction" class="com.internousdev.template2.action.BuyItemConfirmAction" method="execute"> -->
-<!-- 		<result name="success">buyItemConfirmAction.jsp</result> -->
-<!-- 	</action> -->
+	<action name="BuyItemAction" class="com.internousdev.template2.action.BuyItemAction" method="execute">
+		<result name="success">buyItemConfirm.jsp</result>
+	</action>
 
-<!-- 	<action name="MyPageAction" class="com.internousdev.template2.action.MyPageAction" method="execute"> -->
-<!-- 		<result name="success">myPage.jsp</result> -->
-<!-- 	</action> -->
+	<action name="BuyItemConfirmAction" class="com.internousdev.template2.action.BuyItemConfirmAction" method="execute">
+		<result name="success">buyItemComplete.jsp</result>
+	</action>
+
+	<action name="MyPageAction" class="com.internousdev.template2.action.MyPageAction" method="execute">
+		<result name="success">myPage.jsp</result>
+	</action>
 
 </package>
 </struts>
