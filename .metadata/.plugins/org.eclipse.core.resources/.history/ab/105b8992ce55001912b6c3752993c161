@@ -1,0 +1,27 @@
+package com.internousdev.ecsite.action;
+
+import java.util.Map;
+import org.apache.struts2.interceptor.SessionAware;
+
+import com.internousdev.ecsite.dao.LoginDAO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport implements SessionAware{
+	private String loginUserid;
+	private String loginPassword;
+	private Map<String, Object> session;
+	private LoginDAO lidao = new LoginDAO();
+	private LoginDTO lidto = new LoginDTO();
+	private BuyitemDAO bidao = new BuyItemDAO();
+	
+	public String execute(){
+		String result = ERROR;
+		lidto = lidao.getLoginUserInfo(loginUserId, loginPassword);
+		session.put("loginUser", lidto);
+		
+		if(((LoginDTO) session.get("loginUser")).getLoginFlg()){
+			result = SUCCESS;
+		}
+	}
+
+}

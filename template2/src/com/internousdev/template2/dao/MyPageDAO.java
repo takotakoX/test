@@ -19,7 +19,12 @@ public class MyPageDAO {
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
 		MyPageDTO dto = new MyPageDTO();
-		String sql = "SELECT iit.item_name, ubit.total_price, ubit.total_count, ubit.pay FROM user_buy_item_transaction ubit LEFT JOIN item_info_transaction iit ON ubit.item_transaction_id = iit.id WHERE ubit.item_transaction_id = ? AND ubit.user_master_id = ? ORDER BY ubit.insert_date DESC";
+		String sql = "SELECT iit.item_name, ubit.total_price, ubit.total_count, ubit.pay "
+				+ "FROM user_buy_item_transaction ubit "
+				+ "LEFT JOIN item_info_transaction iit "
+				+ "ON ubit.item_transaction_id = iit.id "
+				+ "WHERE ubit.item_transaction_id = ? AND ubit.user_master_id = ? "
+				+ "ORDER BY ubit.insert_date DESC";
 //		テーブル名のエイリアス（別名）はスペースを空けて記述できる。
 //		【sql文の解説】
 //		買ったものの名前、金額の合計、いくつ買ったか、支払い方法が出力される。
@@ -43,6 +48,7 @@ public class MyPageDAO {
 				dto.setTotalPrice(rs.getString("total_price"));
 				dto.setTotalCount(rs.getString("total_count"));
 				dto.setPayment(rs.getString("pay"));
+//				System.out.println(dto);
 			}
 		}catch(Exception e){
 			e.printStackTrace();
@@ -59,12 +65,16 @@ public class MyPageDAO {
 
 		String sql = "DELETE FROM user_buy_item_transaction "
 				+ "WHERE item_transaction_id = ? AND user_master_id = ?";
+//		delete文ではwhereの条件に合致するレコードがすべて削除される。
 		PreparedStatement ps;
 		int result = 0;
 		try{
 			ps = con.prepareStatement(sql);
+//			分けてる理由は特にない。
 			ps.setString(1, item_transaction_id);
 			ps.setString(2, user_master_id);
+//			このカッコ内の変数にはなにが入るか？
+//			MyPageActionでとってきたセッションの値
 
 			result = ps.executeUpdate();
 		}catch(SQLException e){

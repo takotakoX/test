@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.util.DateUtil"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dao.BuyItemCompleteDAO"/>
 <fullyQualifiedTypeName name="com.internousdev.template2.util.DBConnector"/>
 <fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
-<fullyQualifiedTypeName name="com.internousdev.template2.util.DateUtil"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
 <fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dao.MyPageDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dto.MyPageDTO"/>
 </qualifiedTypeNameHistroy>

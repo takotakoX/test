@@ -76,7 +76,7 @@
 					<tr>
 						<td>
 							<span>商品名</span>
-<!-- 							なぜspanで囲む？ -->
+<!-- 							なぜspanで囲む？←特に意味なし -->
 						</td>
 						<td>
 							<s:property value="session.buyItem_name" />

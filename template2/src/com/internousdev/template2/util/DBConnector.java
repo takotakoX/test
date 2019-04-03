@@ -15,6 +15,7 @@ public class DBConnector {
 	try{
 		Class.forName(driverName);
 		con = (Connection) DriverManager.getConnection(url,user,password);
+//		このgetConnectionメソッドはこのクラスで定義しているgetConnectionメソッドとは別物。
 	}catch(ClassNotFoundException e){
 		e.printStackTrace();
 	}catch(SQLException e){
