@@ -71,7 +71,7 @@
 			<p>BuyItem</p>
 		</div>
 		<div>
-			<s:form>
+			<s:form action="BuyItemAction">
 				<table>
 					<tr>
 						<td>商品名</td>
