@@ -58,6 +58,11 @@
 			clear:both;
 		}
 
+		#text-right{
+			display: inline-block;
+			text-align: right;
+		}
+
 
 	</style>
 </head>
@@ -71,12 +76,12 @@
 			<p>MyPage</p>
 		</div>
 		<div>
-			<s:if test="myPageList == null">
-				<h3>購入情報はありません。</h3>
+			<s:if test="dtoList == null">
+				<p>No buying history</p>
 			</s:if>
 			<s:elseif test="message == null">
 				<h3>購入情報は以下です。</h3>
-				<table>
+				<table border="1">
 					<tr>
 						<th>商品名</th>
 						<th>値段</th>
@@ -84,7 +89,7 @@
 						<th>支払い方法</th>
 						<th>購入日</th>
 					</tr>
-					<s:iterator value="MyPageList">
+					<s:iterator value="dtoList">
 						<tr>
 							<td><s:property value="itemName"/></td>
 							<td><s:property value="totalPrice"/><span>円</span></td>
@@ -102,14 +107,14 @@
 			<s:if test="message != null">
 				<h3><s:property value="message"/></h3>
 			</s:if>
-				<div id="text-right">
+			<div id="text-right">
 				<p>
 					<a href='<s:url action="GoHomeAction" />'>Homeへ戻る</a>
 				</p>
 				<p>
 					<a href='<s:url action="LogoutAction" />'>ログアウト</a>
 				</p>
-				</div>
+			</div>
 		</div>
 	</div>
 	<div id="footer">
