@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
+<<<<<<< HEAD
 		<item value="572" key="DIALOG_X_ORIGIN"/>
 		<item value="108" key="DIALOG_Y_ORIGIN"/>
+=======
+		<item value="25" key="DIALOG_X_ORIGIN"/>
+		<item value="15" key="DIALOG_Y_ORIGIN"/>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="-1" key="dialogHeight"/>
@@ -22,6 +27,7 @@
 			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
 			<item value="org.eclipse.wst.XMLCategory"/>
 			<item value="org.eclipse.jpt.dbws"/>
+<<<<<<< HEAD
 		</list>
 	</section>
 	<section name="ImportExportAction">
@@ -32,6 +38,15 @@
 		</list>
 		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
 			<item value="org.eclipse.jdt.ui.Java"/>
+=======
+			<item value="org.eclipse.ui.Examples"/>
+		</list>
+	</section>
+	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 		</list>
 	</section>
 </section>

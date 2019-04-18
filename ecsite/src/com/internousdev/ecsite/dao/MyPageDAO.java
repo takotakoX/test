@@ -1,5 +1,6 @@
 package com.internousdev.ecsite.dao;
 
+<<<<<<< HEAD
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -8,6 +9,12 @@ import java.util.ArrayList;
 
 import com.internousdev.ecsite.dto.MyPageDTO;
 import com.internousdev.ecsite.util.DBConnector;
+=======
+import java.sql.*;
+import java.util.ArrayList;
+import com.internousdev.ecsite.dto.*;
+import com.internousdev.ecsite.util.*;
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 
 public class MyPageDAO {
 
@@ -17,6 +24,10 @@ public class MyPageDAO {
 	public ArrayList<MyPageDTO> getMyPageUserInfo
 			(String item_transaction_id, String user_master_id) throws SQLException{
 		ArrayList<MyPageDTO> mpdto = new ArrayList<MyPageDTO>();
+<<<<<<< HEAD
+=======
+//		<>はジェネリクスといい、listに入る要素のデータ型を示す。
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 		String sql =
 				"SELECT ubit.id, iit.item_name, ubit.total_price, ubit.total_count, ubit.pay, ubit.insert_date "
 				+ "FROM user_buy_item_transaction ubit "

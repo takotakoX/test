@@ -26,17 +26,17 @@ public class LoginAction extends ActionSupport implements SessionAware{
 //		LoginDAOクラスのgetLoginUserInfoメソッドを呼び出して、loginDTOに格納。
 //		LoginDTOは三つのフィールドを持つクラス。
 //		putメソッドはMapに値をセットするためのもの。コレクションフレームワーク参照。
-
+		System.out.println(session);
 		if(((LoginDTO)session.get("loginUser")).getLoginFlg()){
+//			(LoginDTO)はキャスト強制型変換。Map型は何でも詰められる代償として入れた値はデータ型を忘れる。
 			result = SUCCESS;
 			BuyItemDTO buyItemDTO = buyItemDAO.getBuyItemInfo();
-//			(LoginDTO)はキャスト強制型変換。Map型は何でも詰められる代償として入れた値はデータ型を忘れる。
-
 			session.put("login_user_id",loginDTO.getLoginId());
-			session.put("id",loginDTO.getLoginId());
+			session.put("id",buyItemDTO.getId());
 			session.put("buyItem_name",buyItemDTO.getItemName());
 			session.put("buyItem_price",buyItemDTO.getItemPrice());
 			return result;
+//			上のreturn result;は本当は必要ない。この後にifの処理の中身が続けば必要な場合がある。
 		}
 		return result;
 	}

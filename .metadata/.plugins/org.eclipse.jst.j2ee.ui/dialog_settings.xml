@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="MRU_RUNTIME_STORE">
+<<<<<<< HEAD
 		<item value="Tomcat8 (Java8)"/>
+=======
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 		<item value="Tomcat6 (Java6)"/>
 	</list>
 </section>

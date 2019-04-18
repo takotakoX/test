@@ -18,7 +18,14 @@
      define subcomponents such as "Valves" at this level.
      Documentation at /docs/config/server.html
  --><Server port="8005" shutdown="SHUTDOWN">
+<<<<<<< HEAD
 
+=======
+  <Listener className="org.apache.catalina.startup.VersionLoggerListener"/>
+  <!-- Security listener. Documentation at /docs/config/listeners.html
+  <Listener className="org.apache.catalina.security.SecurityListener" />
+  -->
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
   <!--APR library loader. Documentation at /docs/apr.html -->
   <Listener SSLEngine="on" className="org.apache.catalina.core.AprLifecycleListener"/>
   <!--Initialize Jasper prior to webapps are loaded. Documentation at /docs/jasper-howto.html -->
@@ -131,7 +138,11 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
+<<<<<<< HEAD
       <Context docBase="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ecsite" path="/ecsite" reloadable="true" source="org.eclipse.jst.jee.server:ecsite"/></Host>
+=======
+      <Context docBase="C:\Users\internousdev\Desktop\workspace\workspace-suzukawa\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\internousdev\Desktop\workspace\workspace-suzukawa\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\template2" path="/template2" reloadable="true" source="org.eclipse.jst.jee.server:template2"/><Context docBase="C:\Users\internousdev\Desktop\workspace\workspace-suzukawa\test\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ecsite" path="/ecsite" reloadable="true" source="org.eclipse.jst.jee.server:ecsite"/></Host>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
     </Engine>
   </Service>
 </Server>

@@ -124,7 +124,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
+<<<<<<< HEAD
       <Context docBase="dokoTsubu" path="/dokoTsubu" reloadable="true" source="org.eclipse.jst.jee.server:dokoTsubu"/><Context docBase="ecsite" path="/ecsite" reloadable="true" source="org.eclipse.jst.jee.server:ecsite"/><Context docBase="healthCheck" path="/healthCheck" reloadable="true" source="org.eclipse.jst.jee.server:healthCheck"/><Context docBase="dokoTsubuDB02" path="/dokoTsubuDB02" reloadable="true" source="org.eclipse.jst.jee.server:dokoTsubuDB02"/><Context docBase="myRecipe" path="/myRecipe" reloadable="true" source="org.eclipse.jst.jee.server:myRecipe"/><Context docBase="Fortune" path="/Fortune" reloadable="true" source="org.eclipse.jst.jee.server:Fortune"/><Context docBase="final_login" path="/final_login" reloadable="true" source="org.eclipse.jst.jee.server:final_login"/></Host>
+=======
+      <Context docBase="template2" path="/template2" reloadable="true" source="org.eclipse.jst.jee.server:template2"/><Context docBase="ecsite" path="/ecsite" reloadable="true" source="org.eclipse.jst.jee.server:ecsite"/></Host>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
     </Engine>
   </Service>
 </Server>

@@ -12,6 +12,7 @@ public class DBConnector {
 	public Connection getConnection(){
 		Connection con = null;
 
+<<<<<<< HEAD
 		try{
 			Class.forName(driverName);
 //			(Connection)はじつはいらない。
@@ -23,4 +24,18 @@ public class DBConnector {
 		}
 		return con;
 	}
+=======
+	try{
+		Class.forName(driverName);
+		con = (Connection) DriverManager.getConnection(url,user,password);
+	}catch(ClassNotFoundException e){
+		e.printStackTrace();
+	}catch(SQLException e){
+		e.printStackTrace();
+	}
+
+	return con;
+	}
+
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 }

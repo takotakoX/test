@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 activeuserprofiles=DESKTOP-5GRBQHU;Team
 eclipse.preferences.version=1
 org.eclipse.rse.systemtype.local.systemType.defaultUserId=nynhm
 useridperkey=DESKTOP-5GRBQHU.\u30ED\u30FC\u30AB\u30EB\=nynhm;
+=======
+activeuserprofiles=00174045119433;Team
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=internousdev
+useridperkey=00174045119433.\u30ED\u30FC\u30AB\u30EB\=internousdev;
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314

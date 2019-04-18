@@ -58,6 +58,14 @@
 			clear:both;
 		}
 
+<<<<<<< HEAD
+=======
+		#text-right{
+			display: inline-block;
+			text-align: right;
+		}
+
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 
 	</style>
 </head>
@@ -72,7 +80,11 @@
 		</div>
 		<div>
 			<s:if test="dtoList == null">
+<<<<<<< HEAD
 				<p>No Buying History</p>
+=======
+				<p>No buying history</p>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 			</s:if>
 			<s:elseif test="message == null">
 				<h3>購入情報は以下です。</h3>
@@ -102,14 +114,22 @@
 			<s:if test="message != null">
 				<h3><s:property value="message"/></h3>
 			</s:if>
+<<<<<<< HEAD
 				<div id="text-right">
+=======
+			<div id="text-right">
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 				<p>
 					<a href='<s:url action="GoHomeAction" />'>Homeへ戻る</a>
 				</p>
 				<p>
 					<a href='<s:url action="LogoutAction" />'>ログアウト</a>
 				</p>
+<<<<<<< HEAD
 				</div>
+=======
+			</div>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 		</div>
 	</div>
 	<div id="footer">

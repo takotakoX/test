@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+<<<<<<< HEAD
 	<section name="CleanDialogSettings">
 		<item value="828" key="DIALOG_WIDTH"/>
 		<item value="false" key="TOGGLE_SELECTED"/>
@@ -7,18 +8,43 @@
 		<item value="546" key="DIALOG_X_ORIGIN"/>
 		<item value="196" key="DIALOG_Y_ORIGIN"/>
 	</section>
+=======
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+<<<<<<< HEAD
 			<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\practice\Fortune"/>
 			<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test"/>
+=======
+			<item value="C:\Users\internousdev\Desktop\workspace\workspace-suzukawa\test"/>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
 			<item value=""/>
 		</list>
 	</section>
+<<<<<<< HEAD
 	<section name="NewWizardAction">
+=======
+	<section name="ResourceNavigator">
+		<item value="Aggregate for window 1554096749713" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="327" key="DIALOG_X_ORIGIN"/>
+		<item value="213" key="DIALOG_Y_ORIGIN"/>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 	</section>
 </section>

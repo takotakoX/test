@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<<<<<<< HEAD
 <fullyQualifiedTypeName name="model.Health"/>
 <fullyQualifiedTypeName name="model.HealthCheckLogic"/>
 <fullyQualifiedTypeName name="model.RegisterUserLogic"/>
@@ -46,4 +47,25 @@
 <fullyQualifiedTypeName name="com.internousdev.final_login02.util.DBConnector"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+=======
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.util.DateUtil"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dao.BuyItemCompleteDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.util.DBConnector"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dao.MyPageDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.template2.dto.MyPageDTO"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dto.BuyItemDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dao.LoginDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dao.BuyItemDAO"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dto.LoginDTO"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.util.DBConnector"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.PreparedStatement"/>
+<fullyQualifiedTypeName name="com.mysql.jdbc.Connection"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dao.UserCreateCompleteDAO"/>
+<fullyQualifiedTypeName name="org.apache.struts2.interceptor.SessionAware"/>
+>>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 </qualifiedTypeNameHistroy>
