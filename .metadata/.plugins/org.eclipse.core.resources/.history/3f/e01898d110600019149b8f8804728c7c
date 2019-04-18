@@ -1,0 +1,11 @@
+package test;
+
+public class UserCreateDAOTest {
+	public static void main(String[] args){
+		testUserCreateDAO();
+	}
+	
+	public void testUserCreateDAO(){
+		
+	}
+}

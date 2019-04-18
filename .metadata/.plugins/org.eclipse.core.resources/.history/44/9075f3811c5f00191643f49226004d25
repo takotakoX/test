@@ -1,0 +1,16 @@
+set names utf8;
+set foreign_key_checks=0;
+
+drop database if exists myrecipe;
+create database if not exists myrecipe;
+use myrecipe;
+
+drop table if exists user_account;
+
+create table user_account(
+	id int not null primary key auto_increment,
+	mail varchar(100) not null,
+	pass varchar(8) not null
+);
+
+INSERT INTO user_account(mail, pass) VALUES("taro@gmail.com","123");

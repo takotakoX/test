@@ -1,0 +1,10 @@
+package com.internousdev.final_login.action;
+
+import java.sql.SQLException;
+
+public class LoginAction extends ActionSupport{
+	public String execute() throws SQLException{
+		
+	}
+
+}

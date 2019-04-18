@@ -1,0 +1,44 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+import entity.RecipeEntity;
+import util.DBConnector;
+
+public class RecipeCreateDAO {
+	public void CreateRecipe(RecipeEntity recipe){
+
+		String sql = "INSERT INTO recipe(dish, ing_1, ing_2, ing_3, ing_4, ing_5, ing_6, ing_7, ing_8, ing_9, ing_10, cooking_time) "
+				+ "VALUES(?,?,?,?,?,?,?,?,?,?,?,?)";
+		Connection conn = null;
+
+		try{
+			DBConnector db = new DBConnector();
+			conn = db.getConnection();
+
+			PreparedStatement ps = conn.prepareStatement(sql);
+			ps.setString(1, recipe.getDish());
+			ps.setString(2, recipe.getIng01());
+			ps.setString(3, recipe.getIng02());
+			ps.setString(4, recipe.getIng03());
+			ps.setString(5, recipe.getIng04());
+			ps.setString(6, recipe.getIng05());
+			ps.setString(7, recipe.getIng06());
+			ps.setString(8, recipe.getIng07());
+			ps.setString(9, recipe.getIng08());
+			ps.setString(10, recipe.getIng09());
+			ps.setString(11, recipe.getIng10());
+			ps.setInt(12, recipe.getCookingTime());
+			ps.execute();
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			try{
+				conn.close();
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+	}
+}

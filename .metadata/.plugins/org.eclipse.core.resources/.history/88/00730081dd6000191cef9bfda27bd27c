@@ -1,0 +1,28 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>マイレシピ</title>
+	</head>
+	<body>
+		<p>
+			ID: <c:out value="${mailId}"/> でログイン中
+		</p>
+		<table>
+			<c:forEach var="recipe" items="${recipeList}">
+				<tr>
+					<td><c:out value="${recipe.dish}"/></td>
+					<td><c:out value="${recipe.ing01}"/></td>
+				</tr>
+			</c:forEach>
+		</table>
+		<p>
+			<a href="/myRecipe/RecipeCreateServlet">レシピ登録</a>
+		</p>
+		<p>
+			<a href="/myRecipe/LogoutServlet">ログアウト</a><br>
+		</p>
+	</body>
+</html>

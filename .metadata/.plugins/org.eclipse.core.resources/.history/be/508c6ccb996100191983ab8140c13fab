@@ -1,0 +1,8 @@
+package com.internousdev.final_login.dao;
+
+public class LoginDAO {
+	public boolean UserLogin(String name, String pass){
+		String sql = "SELECT user_name, password FROM user WHERE user_name = ? AND password = ?";
+	}
+
+}

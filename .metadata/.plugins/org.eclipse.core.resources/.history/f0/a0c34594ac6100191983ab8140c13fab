@@ -1,0 +1,5 @@
+package com.internousdev.final_login02.dao;
+
+public class LoginDAO {
+
+}

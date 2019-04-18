@@ -1,0 +1,60 @@
+package dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import entity.RecipeEntity;
+import util.DBConnector;
+
+public class RecipeCreateDAO {
+	public boolean CreateRecipe(RecipeEntity recipe){
+		String checkSql = "SELECT dish FROM recipe WHERE dish = ?";
+		String registerSql = "INSERT INTO recipe(dish, ing_1, ing_2, ing_3, ing_4, ing_5, ing_6, ing_7, ing_8, ing_9, ing_10, cooking_time) "
+				+ "VALUES(?,?,?,?,?,?,?,?,?,?,?,?)";
+		int result;
+		boolean ret = true;
+		Connection conn = null;
+
+		try{
+			DBConnector db = new DBConnector();
+			conn = db.getConnection();
+
+			PreparedStatement ps1 = conn.prepareStatement(checkSql);
+			ps1.setString(1, recipe.getDish());
+			ResultSet rs = ps1.executeQuery();
+
+			if(rs.next()){
+				ret = false;
+			}else{
+				PreparedStatement ps2 = conn.prepareStatement(registerSql);
+				ps2.setString(1, recipe.getDish());
+				ps2.setString(2, recipe.getIng01());
+				ps2.setString(3, recipe.getIng02());
+				ps2.setString(4, recipe.getIng03());
+				ps2.setString(5, recipe.getIng04());
+				ps2.setString(6, recipe.getIng05());
+				ps2.setString(7, recipe.getIng06());
+				ps2.setString(8, recipe.getIng07());
+				ps2.setString(9, recipe.getIng08());
+				ps2.setString(10, recipe.getIng09());
+				ps2.setString(11, recipe.getIng10());
+				ps2.setInt(12, recipe.getCookingTime());
+				result = ps2.executeUpdate();
+
+				if(result != 1){
+					ret = false;
+				}
+			}
+		}catch(Exception e){
+			e.printStackTrace();
+		}finally{
+			try{
+				conn.close();
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+		}
+		return ret;
+	}
+}

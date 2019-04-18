@@ -1,0 +1,11 @@
+package dao;
+
+import entity.LoginEntity;
+import util.DBConnector;
+
+public class LoginUserAccountDAO {
+	public LoginEntity UserLogin(LoginEntity loginEntity){
+
+	}
+
+}
