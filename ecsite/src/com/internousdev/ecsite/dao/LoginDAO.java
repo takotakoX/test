@@ -13,10 +13,10 @@ public class LoginDAO {
 	private LoginDTO dto = new LoginDTO();
 
 	public LoginDTO getLoginUserInfo(String loginUserId, String loginPassword){
-		String sql = "SELECT * FROM login_user_transaction WHERE login_id = ? AND login_pass = ?";
+		String loginSql = "SELECT * FROM login_user_transaction WHERE login_id = ? AND login_pass = ?";
 
 		try{
-			PreparedStatement ps = con.prepareStatement(sql);
+			PreparedStatement ps = con.prepareStatement(loginSql);
 
 			ps.setString(1, loginUserId);
 			ps.setString(2, loginPassword);
@@ -24,13 +24,13 @@ public class LoginDAO {
 			ResultSet rs = ps.executeQuery();
 
 			if(rs.next()){
-				//test
-				System.out.println(rs.getString("login_id"));
-				//test
 				dto.setLoginId(rs.getString("login_id"));
 				dto.setLoginPassword(rs.getString("login_pass"));
 				dto.setUserName(rs.getString("user_name"));
 
+				if(rs.getString("admin_id")!=null){
+					dto.setAdminFlg(true);
+				}
 				if(!(rs.getString("login_id").equals(null))){
 					dto.setLoginFlg(true);
 				}

@@ -58,6 +58,11 @@
 			clear:both;
 		}
 
+		#text-right{
+			display: inline-block;
+			text-align: right;
+		}
+
 
 	</style>
 </head>
@@ -103,6 +108,7 @@
 				<h3><s:property value="message"/></h3>
 			</s:if>
 				<div id="text-right">
+			<div id="text-right">
 				<p>
 					<a href='<s:url action="GoHomeAction" />'>Homeへ戻る</a>
 				</p>
@@ -110,6 +116,7 @@
 					<a href='<s:url action="LogoutAction" />'>ログアウト</a>
 				</p>
 				</div>
+			</div>
 		</div>
 	</div>
 	<div id="footer">

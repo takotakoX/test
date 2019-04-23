@@ -1,0 +1,33 @@
+package com.internousdev.ecsite.dto;
+
+public class ItemInfoDTO {
+	private String itemName;
+	private int itemPrice;
+	private int itemStock;
+	private int insertDate;
+
+	public String getItemName() {
+		return itemName;
+	}
+	public void setItemName(String itemName) {
+		this.itemName = itemName;
+	}
+	public int getItemPrice() {
+		return itemPrice;
+	}
+	public void setItemPrice(int itemPrice) {
+		this.itemPrice = itemPrice;
+	}
+	public int getItemStock() {
+		return itemStock;
+	}
+	public void setItemStock(int itemStock) {
+		this.itemStock = itemStock;
+	}
+	public int getInsertDate() {
+		return insertDate;
+	}
+	public void setInsertDate(int insertDate) {
+		this.insertDate = insertDate;
+	}
+}

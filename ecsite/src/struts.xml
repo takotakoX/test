@@ -18,6 +18,7 @@
 		<action name="LoginAction" class="com.internousdev.ecsite.action.LoginAction" method="execute">
 			<result name="success">buyItem.jsp</result>
 			<result name="error">login.jsp</result>
+			<result name="admin">admin.jsp</result>
 		</action>
 
 		<action name="UserCreateAction" class="com.internousdev.ecsite.action.UserCreateAction" method="execute">
@@ -44,10 +45,6 @@
 			<result name="back">buyItem.jsp</result>
 		</action>
 
-<!-- 		<action name="BuyItemCompleteAction" class="com.internousdev.ecsite.action.BuyItemCompleteAction" method="execute"> -->
-<!-- 			<result name="success">home.jsp</result> -->
-<!-- 		</action> -->
-
 		<action name="MyPageAction" class="com.internousdev.ecsite.action.MyPageAction" method="execute">
 			<result name="success">myPage.jsp</result>
 			<result name="error">error.jsp</result>
@@ -57,5 +54,52 @@
 			<result name="success">home.jsp</result>
 		</action>
 
+		<!-- ここから課題 -->
+
+		<action name="AdminAction" class="com.internousdev.ecsite.action.AdminAction" method="execute">
+			<result name="success">admin.jsp</result>
+		</action>
+
+		<!-- 商品新規登録機能 -->
+
+		<action name="ItemCreateAction" class="com.internousdev.ecsite.action.ItemCreateAction" method="execute">
+			<result name="success">itemCreate.jsp</result>
+		</action>
+
+		<action name="ItemCreateConfirmAction" class="com.internousdev.ecsite.action.ItemCreateConfirmAction" method="execute">
+			<result name="success">itemCreateConfirm.jsp</result>
+		</action>
+
+		<action name="ItemCreateCompleteAction" class="com.internousdev.ecsite.action.ItemCreateCompleteAction" method="execute">
+			<result name="success">itemCreateComplete.jsp</result>
+		</action>
+
+		<!-- 商品一覧表示および削除機能 -->
+
+		<action name="ItemListAction" class="com.internousdev.ecsite.action.ItemListAction" method="execute">
+			<result name="success">itemList.jsp</result>
+		</action>
+
+		<action name="ItemListDeleteConfirmAction" class="com.internousdev.ecsite.action.ItemListDeleteConfirmAction" method="execute">
+			<result name="success">itemListDeleteConfirm.jsp</result>
+		</action>
+
+		<action name="ItemListDeleteCompleteAction" class="com.internousdev.ecsite.action.ItemListDeleteCompleteAction" method="execute">
+			<result name="success">itemListDeleteComplete.jsp</result>
+		</action>
+
+		<!-- ユーザー一覧表示および削除機能 -->
+
+		<action name="UserListAction" class="com.internousdev.ecsite.action.UserListAction" method="execute">
+			<result name="success">userList.jsp</result>
+		</action>
+
+		<action name="UserListDeleteConfirmAction" class="com.internousdev.ecsite.action.UserListDeleteConfirmAction" method="execute">
+			<result name="success">userListDeleteConfirm.jsp</result>
+		</action>
+
+		<action name="UserListDeleteCompleteAction" class="com.internousdev.ecsite.action.UserListDeleteCompleteAction" method="execute">
+			<result name="success">userListDeleteComplete.jsp</result>
+		</action>
 	</package>
 </struts>

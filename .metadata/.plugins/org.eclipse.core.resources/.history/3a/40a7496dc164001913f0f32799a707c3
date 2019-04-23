@@ -1,0 +1,15 @@
+package com.internousdev.ecsite.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.internousdev.ecsite.dto.ItemInfoDTO;
+
+public class ItemListDAO {
+
+	public ItemList<ItemInfoDTO> getItemList(){
+		List<ItemInfoDTO> itemList = new ArrayList<ItemInfoDTO>();
+		String sql = "SELECT id, item_name, item_price, item_stock, insert_date FROM item_info_transaction ORDER BY id ASC";
+	}
+
+}

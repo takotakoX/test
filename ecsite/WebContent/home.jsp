@@ -79,6 +79,13 @@
 			<s:form action="HomeAction">
 				<s:submit value="商品購入"/>
 			</s:form>
+
+			<!-- 一時的に作ります -->
+				<s:form action="AdminAction">
+					<s:submit value="管理者"/>
+				</s:form>
+			<!-- 一時的に作ります -->
+
 			<s:if test="#session.id != null">
 				<p>ログインする場合は
 					<a href='<s:url action="LogoutAction"/>'>こちら</a>

@@ -1,0 +1,16 @@
+package practice;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapPractice {
+	public static void main(String[] args){
+
+		Person person1 = new Person("sato",28);
+		Person person2 = new Person("monzen",22);
+		Person person3 = new Person("suzuki",31);
+
+		Map<String, Person> personMap = new HashMap<String, Person>();
+	}
+
+}

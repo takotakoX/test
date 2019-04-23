@@ -1,50 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-<<<<<<< HEAD
-=======
-	<item value="filter_imports;" key="filters_last_used"/>
->>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
-	<section name="RefactoringWizard.preview">
-		<item value="600" key="width"/>
-		<item value="400" key="height"/>
-	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="true" key="renameSubpackages"/>
 		<item value="false" key="updateQualifiedNames"/>
 		<item value="*" key="patterns"/>
 		<item value="true" key="updateSimilarElements"/>
 		<item value="1" key="updateSimilarElementsMatchStrategy"/>
 		<item value="false" key="updateTextualMatches"/>
 	</section>
-	<section name="javadoc">
-		<item value="public" key="access"/>
-		<item value="false" key="noindex"/>
-		<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\ecsite\javadoc.xml" key="antpath"/>
-		<item value="false" key="nodeprecatedlist"/>
-		<item value="true" key="use"/>
-		<item value="true" key="author"/>
-		<item value="false" key="nodeprecated"/>
-		<item value="false" key="nonavbar"/>
-		<item value="" key="docletpath"/>
-		<item value="C:\pleiades\java\8\bin\javadoc.exe" key="javadoc_command_history"/>
-		<item value="1.6" key="source"/>
-		<item value="true" key="version"/>
-		<item value="" key="docletname"/>
-		<item value="true" key="splitindex"/>
-		<item value="true" key="fromStandard"/>
-		<item value="false" key="notree"/>
-		<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\ecsite\doc" key="destdir"/>
-		<item value="false" key="openinbrowser"/>
-		<section name="projects">
-		</section>
-	</section>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="1" key="layout"/>
 		<item value="true" key="group_libraries"/>
-<<<<<<< HEAD
 		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;1&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1554704426340&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.decompiler*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
-=======
-		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;packageExplorer group_libraries=&quot;1&quot; layout=&quot;1&quot; linkWithEditor=&quot;0&quot; rootMode=&quot;1&quot; workingSetName=&quot;Aggregate for window 1554096749713&quot;&gt;&#x0D;&#x0A;&lt;customFilters userDefinedPatternsEnabled=&quot;false&quot;&gt;&#x0D;&#x0A;&lt;xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.StaticsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.mylyn.java.ui.MembersFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.m2e.MavenModuleFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.BinaryProjectFilter1&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.pde.ui.ExternalPluginLibrariesFilter1&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.FieldsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.LibraryFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.decompiler*&quot; isEnabled=&quot;true&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;child filterId=&quot;org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter&quot; isEnabled=&quot;false&quot;/&gt;&#x0D;&#x0A;&lt;/xmlDefinedFilters&gt;&#x0D;&#x0A;&lt;/customFilters&gt;&#x0D;&#x0A;&lt;/packageExplorer&gt;" key="memento"/>
->>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
 		<item value="1" key="rootMode"/>
 		<item value="false" key="linkWithEditor"/>
 	</section>
@@ -55,62 +22,228 @@
 	<section name="OptionalMessageDialog.hide.">
 		<item value="true" key="org.eclipse.jdt.ui.typecomment.deprecated"/>
 	</section>
+	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
+		<item value="857" key="DIALOG_WIDTH"/>
+		<item value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI" key="DIALOG_FONT_NAME"/>
+		<item value="1020" key="DIALOG_HEIGHT"/>
+		<item value="543" key="DIALOG_X_ORIGIN"/>
+		<item value="11" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="600" key="width"/>
+		<item value="400" key="height"/>
+	</section>
+	<section name="javadoc">
+		<item value="public" key="access"/>
+		<item value="false" key="noindex"/>
+		<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\example\javadoc.xml" key="antpath"/>
+		<item value="false" key="nodeprecatedlist"/>
+		<item value="true" key="use"/>
+		<item value="true" key="author"/>
+		<item value="false" key="nodeprecated"/>
+		<item value="false" key="nonavbar"/>
+		<item value="" key="docletpath"/>
+		<item value="C:\pleiades\java\8\bin\javadoc.exe" key="javadoc_command_history"/>
+		<item value="1.8" key="source"/>
+		<item value="true" key="version"/>
+		<item value="" key="docletname"/>
+		<item value="true" key="splitindex"/>
+		<item value="true" key="fromStandard"/>
+		<item value="false" key="notree"/>
+		<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\example\doc" key="destdir"/>
+		<item value="false" key="openinbrowser"/>
+		<section name="projects">
+			<section name="template">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\template\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\template\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="capsule">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\capsule\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\capsule\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="list_exercise">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\list_exercise\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\list_exercise\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="myRecipe">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\myRecipe\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\myRecipe\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Servers">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\Servers\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\Servers\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="login">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\login\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\login\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="RemoteSystemsTempFiles">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\RemoteSystemsTempFiles\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\RemoteSystemsTempFiles\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="example">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\example\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\example\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WebProj4">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj4\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj4\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WebProj3">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj3\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj3\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WebProj2">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WebProj">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="iphone2">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\iphone2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\iphone2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="WebProj5">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj5\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\WebProj5\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="HelloServlet">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\HelloServlet\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\HelloServlet\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="human">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\human\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\human\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="collectionFramework">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\collectionFramework\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\collectionFramework\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="final_login02">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\final_login02\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\final_login02\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="dokoTsubu">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\dokoTsubu\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\dokoTsubu\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="template2">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\template2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\template2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="ecsite">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\ecsite\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\ecsite\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="lesson">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\lesson\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\lesson\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="TestDB">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\TestDB\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\TestDB\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="sample">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\sample\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\sample\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="iphone">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\iphone\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\iphone\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="HelloJSP">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\HelloJSP\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\HelloJSP\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="person2">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\person2\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\person2\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="person">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\person\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\person\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="healthCheck">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\healthCheck\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\healthCheck\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="Fortune">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\practice\Fortune\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\practice\Fortune\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="TestProject01">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\TestProject01\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\TestProject01\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="final_login">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\final_login\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\final_login\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+			<section name="dokoTsubuDB02">
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\dokoTsubuDB02\javadoc.xml" key="antpath"/>
+				<item value="C:\Users\nynhm\OneDrive\デスクトップ\workspace\test\dokoTsubuDB02\doc" key="destdir"/>
+				<item value="" key="href"/>
+			</section>
+		</section>
+	</section>
+	<section name="SourceActionDialog.methods">
+		<item value="false" key="SynchronizedModifier"/>
+		<item value="false" key="Comments"/>
+		<item value="1" key="VisibilityModifier"/>
+		<item value="false" key="FinalModifier"/>
+	</section>
 	<section name="quick_assist_proposal_size">
 	</section>
-<<<<<<< HEAD
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
 	</section>
-	<section name="completion_proposal_size">
-	</section>
-=======
-	<section name="JavaSearchPage">
-		<item value="3" key="HISTORY_SIZE"/>
-		<item value="false" key="CASE_SENSITIVE"/>
-		<item value="15" key="INCLUDE_MASK"/>
-		<section name="HISTORY2">
-			<item value="false" key="isCaseSensitive"/>
-			<item value="" key="javaElement"/>
-			<item value="0" key="scope"/>
-			<item value="11" key="includeMask"/>
-			<item value="getBuyItemInfo" key="pattern"/>
-			<item value="2" key="limitTo"/>
-			<item value="0" key="matchLocations"/>
-			<item value="1" key="searchFor"/>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY0">
-			<item value="false" key="isCaseSensitive"/>
-			<item value="" key="javaElement"/>
-			<item value="0" key="scope"/>
-			<item value="15" key="includeMask"/>
-			<item value="message" key="pattern"/>
-			<item value="2" key="limitTo"/>
-			<item value="0" key="matchLocations"/>
-			<item value="0" key="searchFor"/>
-			<list key="workingSets">
-			</list>
-		</section>
-		<section name="HISTORY1">
-			<item value="false" key="isCaseSensitive"/>
-			<item value="" key="javaElement"/>
-			<item value="0" key="scope"/>
-			<item value="15" key="includeMask"/>
-			<item value="item_transaction_id" key="pattern"/>
-			<item value="2" key="limitTo"/>
-			<item value="0" key="matchLocations"/>
-			<item value="0" key="searchFor"/>
-			<list key="workingSets">
-			</list>
-		</section>
-	</section>
-	<section name="NewPackageWizardPage">
-		<item value="false" key="create_package_info_java"/>
+	<section name="JavadocWizardDialog">
+		<item value="1022" key="DIALOG_WIDTH"/>
+		<item value="1|Yu Gothic UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Yu Gothic UI" key="DIALOG_FONT_NAME"/>
+		<item value="835" key="DIALOG_HEIGHT"/>
+		<item value="460" key="DIALOG_X_ORIGIN"/>
+		<item value="11" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="completion_proposal_size">
 	</section>
->>>>>>> 00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
+	<section name="AddGetterSetterDialog">
+		<item value="false" key="SortOrdering"/>
+		<item value="false" key="RemoveFinal"/>
+	</section>
 	<section name="JavaElementSearchActions">
 	</section>
 </section>

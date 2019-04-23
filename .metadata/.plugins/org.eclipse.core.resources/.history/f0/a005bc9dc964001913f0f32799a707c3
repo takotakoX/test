@@ -1,0 +1,9 @@
+package com.internousdev.ecsite.dao;
+
+public class ItemListDeleteCompleteDAO {
+	public void listDelete(){
+
+		String sql = "DELETE * FROM item_info_transaction";
+	}
+
+}

@@ -23,7 +23,16 @@ public class LoginAction extends ActionSupport implements SessionAware{
 		session.put("loginUser", lidto);
 
 
-		if(((LoginDTO) session.get("loginUser")).getLoginFlg()){
+
+		if(((LoginDTO) session.get("loginUser")).isLoginFlg() && ((LoginDTO) session.get("loginUser")).isAdminFlg()){
+			result = "admin";
+			BuyItemDTO bidto = bidao.getBuyItemInfo();
+
+			session.put("login_user_id",lidto.getLoginId());
+			session.put("id",bidto.getId());
+			session.put("buyItem_name",bidto.getItemName());
+			session.put("buyItem_price",bidto.getItemPrice());
+		}else if(((LoginDTO) session.get("loginUser")).isLoginFlg()){
 			result = SUCCESS;
 			BuyItemDTO bidto = bidao.getBuyItemInfo();
 

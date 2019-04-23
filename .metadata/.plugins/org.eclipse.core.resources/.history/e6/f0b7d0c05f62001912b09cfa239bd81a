@@ -1,0 +1,23 @@
+package test;
+
+import com.internousdev.final_login02.dao.LoginDAO;
+import com.internousdev.final_login02.dto.LoginDTO;
+
+public class LoginDAOTest {
+	public static void main(String[] args){
+		testUserLogin();
+	}
+
+	public static void testUserLogin(){
+		LoginDTO dto = new LoginDTO();
+		LoginDAO dao = new LoginDAO();
+
+		String name = "taro";
+		String pass = "123";
+
+		dto = dao.UserLogin(name, pass);
+		System.out.println(dto.getName());
+		System.out.println(dto.getPass());
+	}
+
+}

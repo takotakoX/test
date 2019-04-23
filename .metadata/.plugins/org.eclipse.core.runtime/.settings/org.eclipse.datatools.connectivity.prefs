@@ -1,3 +1,7 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=00a3a8007f9986b1e2bf1bd0ed89c1dabe192314
+com.amazonaws.eclipse.datatools.enablement.simpledb.driverTemplate=true
 eclipse.preferences.version=1
 org.eclipse.datatools.enablement.ibm.db2.luw.driverTemplate=true
 org.eclipse.datatools.enablement.ibm.db2.luw.jdbc4.driverTemplate=true

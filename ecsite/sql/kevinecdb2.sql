@@ -9,6 +9,7 @@ drop table if exists login_user_transaction;
 
 create table login_user_transaction(
 	id int not null primary key auto_increment,
+	admin_id int unique,
 	login_id varchar(16) unique,
 	login_pass varchar(16),
 	user_name varchar(50),
@@ -41,4 +42,5 @@ create table user_buy_item_transaction(
 );
 
 INSERT INTO item_info_transaction(item_name, item_price, item_stock) VALUES("ノートBook", 100, 50);
-INSERT INTO login_user_transaction(login_id, login_pass, user_name) VALUES("taro", "123", "test");
+INSERT INTO login_user_transaction(admin_id, login_id, login_pass, user_name) VALUES(1, "taro", "123", "test");
+INSERT INTO login_user_transaction(login_id, login_pass, user_name) VALUES("jiro", "123", "test");

@@ -1,0 +1,36 @@
+package com.internousdev.final_login02.action;
+
+import java.sql.SQLException;
+
+import com.internousdev.final_login02.dao.LoginDAO;
+import com.internousdev.final_login02.dto.LoginDTO;
+
+import x
+
+public class LoginAction extends ActionSupport{
+
+	private String name;
+	private String pass;
+
+	public String execute() throws SQLException{
+
+		LoginDTO dto = new LoginDTO();
+		LoginDAO dao = new LoginDAO();
+		String result = "ERROR";
+
+		dto = dao.UserLogin(name, pass);
+
+		if(dto.getName().equals(name) && dto.getPass().equals(pass)){
+			result = "SUCCESS";
+		}
+		return result;
+	}
+
+	public String getName(){
+		return this.name;
+	}
+	public String getPass(){
+		return this.pass;
+	}
+
+}
