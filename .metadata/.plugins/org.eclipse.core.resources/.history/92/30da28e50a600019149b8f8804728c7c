@@ -1,8 +1,0 @@
-package dao;
-
-import util.DBConnector;
-
-public class UserCreateDAO {
-
-
-}

@@ -1,0 +1,5 @@
+package com.internousdev.kiyurumi.action;
+
+public class SampleAction extends ActionSupport{
+
+}
